@@ -11,6 +11,7 @@ function SearchBar() {
   const [searcheValue, setSearcheValue] = useState('');
   return (  
     <form className="searche-bar">
+   
       <input
         type="search"
         value={searcheValue}
